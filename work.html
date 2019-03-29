@@ -8,34 +8,36 @@
         <title>Calculatrice</title>
     </head>
     <body>
+        <form name=form>
         <input type="text" name="Resultat" class="empty" readonly>
         
          </br>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(9)";>9</button>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(8)"; >8</button>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(7)";>7</button>
-         <button type="button" class="btn btn-danger" onclick="document.Resultat=del()";>Ce</button>
-         <button type="button" class="btn btn-danger" onclick="document.Resultat=fulldel()";>C</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(9)";>9</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(8)"; >8</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(7)";>7</button>
+         <button type="button" class="btn btn-danger" onclick="document.form.Resultat=del()";>Ce</button>
+         <button type="button" class="btn btn-danger" onclick="document.form.Resultat=fulldel()";>C</button>
          </br>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(6)">6</button>
-         <button type="button" class="btn btn-info"onclick="document.Resultat=create(5)">5</button>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(4)">4</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(6)">6</button>
+         <button type="button" class="btn btn-info"onclick="document.form.Resultat=create(5)">5</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(4)">4</button>
          <button type="button" class="op" onclick="div()";>/</button>
          <button type="button" class="op" onclick="mult()";>*</button>
          
          </br>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(3)" >3</button>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(2)">2</button>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(1)">1</button>
-         <button type="button" class="op">+</button>
-         <button type="button" class="op">-</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(3)" >3</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(2)">2</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(1)">1</button>
+         <button type="button" class="op" onclick="add()";>+</button>
+         <button type="button" class="op" onclick="sub()";>-</button>
          </br>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(0)">0</button>
-         <button type="button" class="btn btn-info" onclick="document.Resultat=create(0)">.</button>
-         <button type="button" class="btn btn-warning" id="big" onclick="document.Resultat=res()";>=</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(0)">0</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat=create(0)">.</button>
+         <button type="button" class="btn btn-warning" id="big" onclick="document.form.Resultat=res()";>=</button>
     
 
     
-    <script src="workj.js"></script>   
+    <script src="workj.js"></script>  
+</form> 
     </body>
 </html>

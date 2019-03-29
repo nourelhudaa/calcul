@@ -2,7 +2,7 @@ var i; ch=" "; S=array[" "," "," "," "," "," "," "];
 r=array[" "," "," "," "," "," "," "]; j=0;
 function create (i){
 ch=ch+i;
-return(ch);
+return ch ;
 }
 function del () {
 ch.substring(0,(ch.length)-1);
