@@ -1,0 +1,21 @@
+.btn
+{
+    border-radius: 12px;
+
+}
+.empty
+{
+    border-color: bisque;
+    border-radius: 12px;
+    border-style: solid;
+    width: 15%;
+}
+.op
+{
+border-radius: 12px;
+border-style: solid;
+width :3%;
+}
+#big{
+    width: 10%;
+}
