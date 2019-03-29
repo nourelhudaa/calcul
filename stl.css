@@ -1,6 +1,7 @@
 .btn
 {
     border-radius: 12px;
+    
 
 }
 .empty
@@ -19,3 +20,5 @@ width :3%;
 #big{
     width: 10%;
 }
+body
+{ border :solid;}
