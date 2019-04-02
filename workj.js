@@ -1,10 +1,10 @@
 var i; ch=" "; S=array[" "," "," "," "," "," "," "];
 r=array[" "," "," "," "," "," "," "]; j=0;
-function create (i){
+function create(i){
 ch=ch+i;
 return ch ;
 }
-function del () {
+function del() {
 ch.substring(0,(ch.length)-1);
 return(ch);
 }
