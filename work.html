@@ -9,7 +9,7 @@
     </head>
     <body>
         <form name=form>
-        <input type="text" name="Resultat" class="empty" readonly>
+        <input id="aff" type="text" name="Resultat" class="empty" readonly>
         
          </br>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(9)";>9</button>
@@ -21,19 +21,19 @@
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(6)">6</button>
          <button type="button" class="btn btn-info"onclick="document.form.Resultat.value=create(5)">5</button>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(4)">4</button>
-         <button type="button" class="op" onclick="div()";>/</button>
-         <button type="button" class="op" onclick="mult()";>*</button>
+         <button type="button" class="op" onclick="document.form.Resultat.value=opp('/')";>/</button>
+         <button type="button" class="op" onclick="document.form.Resultat.value=opp('*')";>*</button>
          
          </br>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(3)" >3</button>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(2)">2</button>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(1)">1</button>
-         <button type="button" class="op" onclick="add()";>+</button>
-         <button type="button" class="op" onclick="sub()";>-</button>
+         <button type="button" class="op" onclick="document.form.Resultat.value=opp('+')";>+</button>
+         <button type="button" class="op" onclick="document.form.Resultat.value=opp('-')";>-</button>
          </br>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(0)">0</button>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(0)">.</button>
-         <button type="button" class="btn btn-warning" id="big" onclick="document.form.Resultat=res()";>=</button>
+         <button type="button" class="btn btn-warning" id="big" onclick="document.form.Resultat=res(document.form.Resultat.value)";>=</button>
     
 
     
