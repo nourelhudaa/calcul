@@ -1,6 +1,7 @@
-.btn
+
+#btn
 {
-    border-radius: 12px;
+    border-radius: 20px;
     
 
 }
@@ -11,14 +12,15 @@
     border-style: solid;
     width: 15%;
 }
-.op
+#op
 {
 border-radius: 12px;
 border-style: solid;
 width :3%;
 }
 #big{
-    width: 10%;
+    width: 8%;
 }
 body
 { border :solid;}
+
