@@ -2,8 +2,10 @@ var i; ch=" "; S=array[" "," "," "," "," "," "," "];
 r=array[" "," "," "," "," "," "," "]; j=0; 
 
 function create(i){
+    var boo=document.getElementById('aff');
+    if (boo.value='ON'){
 ch=ch+i;
-return ch ;
+return ch ;}
 }
 function del() {
     var boo=document.getElementById('aff');
@@ -29,5 +31,8 @@ return ch ;
 }
 
 function res(){
-    
+var boo=document.getElementById('aff');
+ch=boo.value;
+result='='+ eval(ch);
+return result ;
 }

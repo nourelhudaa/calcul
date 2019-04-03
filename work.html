@@ -9,7 +9,7 @@
     </head>
     <body>
         <form name=form>
-        <input id="aff" type="text" name="Resultat" class="empty" readonly>
+        <input id="aff" type="text" name="Resultat" class="empty" placeholder="OFF" readonly>
         
          </br>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(9)";>9</button>
@@ -32,8 +32,8 @@
          <button type="button" class="op" onclick="document.form.Resultat.value=opp('-')";>-</button>
          </br>
          <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(0)">0</button>
-         <button type="button" class="btn btn-info" onclick="document.form.Resultat.value=create(0)">.</button>
-         <button type="button" class="btn btn-warning" id="big" onclick="document.form.Resultat=res(document.form.Resultat.value)";>=</button>
+         <button type="button" class="btn btn-info" onclick="document.form.Resultat.placeholder='ON'">ON</button>
+         <button type="button" class="btn btn-warning" id="big" onclick="document.form.Resultat.value=res()";>=</button>
     
 
     
